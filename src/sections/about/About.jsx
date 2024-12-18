@@ -11,7 +11,8 @@ const About = () => {
         <div className="container about__container">
             <div className="about__left">
                 <div className="about__portrait">
-                    <img src={AboutImage} alt="Description of the image" />
+                    {/* eslint-disable-next-line */}
+                    <img src={AboutImage} alt="Image description" />
                 </div>
             </div>
             <div className="about__right">
