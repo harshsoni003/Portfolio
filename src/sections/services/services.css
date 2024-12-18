@@ -1,0 +1,126 @@
+.experience-section {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 100px 20px 20px 8rem;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  /* background: #000000; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.logo-placeholder {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.experience-details {
+  flex: 1;
+  
+}
+
+.experience-details h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.company, .duration, .location {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 4px 0;
+}
+
+.linkedin-help {
+  font-size: 14px;
+  color: #0a66c2;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.linkedin-help img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.description-item {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.skill-tag {
+  font-size: 12px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 4px 4px 0;
+}
+
+@media (max-width: 1200px) {
+  .experience-section {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .experience-section {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-section {
+    padding: 80px 20px 20px 20px;
+  }
+}
+
+
+.logo-image {
+  width: 100%;
+  height: auto;
+  max-width: 100px; /* Adjust as needed */
+}

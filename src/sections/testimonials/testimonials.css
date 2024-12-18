@@ -1,0 +1,55 @@
+#testimonials {
+    padding-bottom: 0;
+
+
+    
+}
+
+.swiper {
+    height: 33rem;
+    /* this paddint top is to give space for micro interaction on hover of swiper slide */
+    padding-top: 1rem;
+  
+    
+}
+
+.swiper-slide {
+    cursor: grab;
+}
+
+.testimonial__client {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* margin-top: 1.5rem; 
+    width: 25rem; */
+   
+}
+
+.testimonial__client-avatar {
+    width: 40rem;
+    height: 13.4rem;
+    aspect-ratio: 1/1;
+    border-radius: var(--border-radius-2);
+    overflow: hidden;
+    transition: var(--transition);
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    
+    
+
+}
+
+.swiper-pagination {
+    margin-bottom: 8rem;
+}
+
+
+.swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+
+#achievement{
+    padding-bottom: 0px;
+}
